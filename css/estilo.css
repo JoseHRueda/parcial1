@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow:  hidden;
+
+    background-image: url(../img/fondo11.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centrar{
+    width: 90%;
+    height: auto;
+    overflow:  hidden;
+    
+    border: ;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.logo{
+    color: white; margin-top: 10px;
+    width: 30%;
+    float: left;
+}
+
+.menu-principal{
+    width: 60%;
+    float: right;
+    border: 0px solid #fff;
+    background: rgba(0,0,0,0.5);
+    border-radius: 7px;
+}
+
+.menu-principal ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.menu-principal ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*izquierda y derecha*/
+.izquierda, .derecha{
+    width: 49%;
+    height: auto; overflow: hidden;
+    
+    border:;
+
+    display: inline-block;
+}
+
+.izquierda{float:left; text-align: left;}
+
+.subtitulo{
+    color: #c1c1c1;
+}
+
+.titulo-principal{
+    color: #fff;
+    font-size: 60px;
+}
+
+.descripcion{
+    color: #fff;
+    font-weight: 300;
+}
+.boton{
+    padding: 17px 35px;
+    background-color: #B83131;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.derecha{float:left;}
+
+.imgpres{
+    width: 100%;
+}
+
+/*quienes somos*/
+
+.elegir{
+    padding: 50px 0px;
+}
+
+.elegir .derecha{
+    text-align: left;
+}
+
+.imgviaje{
+    width: 90%;
+}
+
+.elegir .derecha .texto-rojo{
+    color: red;
+}
+.elegir .derecha h1{
+    color: black;
+    font-size: 35px;
+}
+.elegir .derecha p{
+    color: rgb(0, 0, 0);
+    font-weight: 300px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.opcion{
+    width: 45%;
+    border: solid 1px #ccc;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid #df3a01;
+    border-radius: 7px;
+}
+
+.opcion:hover{
+    color: rgb(247, 0, 0);
+}
+
+.opcion .imgopcion{
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+}
+
+.textoopciones{
+    margin-top: 15px;
+}
+
+/*notificaciones*/
+
+.notificaciones{
+    height: auto;
+    overflow: hidden;
+    background-image: url();
+    padding: 30px 0px;
+    color: white;
+}
+
+.notificaciones h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formnotificaciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.entradanot{
+    width: 40%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.botonot{
+    padding: 17px 30px;
+    background: red;
+    color: white;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.botonot:hover{
+    background: #bc2121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
